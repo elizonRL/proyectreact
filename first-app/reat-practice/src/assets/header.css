@@ -1,0 +1,26 @@
+.md-header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.md-header-nav ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+}
+li{
+    float: left;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
