@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Header/>
-    <main>
+    <main className='md-container'>
       <Hero/>
     </main>
    </>
