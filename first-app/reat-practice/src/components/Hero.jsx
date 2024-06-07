@@ -2,21 +2,31 @@ export default function hero() {
   return (
     <>
       <section className="md-section">
-        <div>
-          <div>
+        <div className="container">
+          <div className="header-hero">
+            <h1>Bella Beauty Salon</h1>
             <div>
-              <div>
-                <h1> Bella Beauty Salon</h1>
-                <p>
-                  Discover the ultimate pampering experience at our premier
-                  beauty salon. Indulge in a wide range of luxurious services
-                  tailored to make you feel beautiful and confident.
-                </p>
-              </div>
-              <div>
-                <a href="">View Services</a>
-                <a href="">Book Now</a>
-              </div>
+              <p>
+                Discover the ultimate pampering experience at our premier beauty
+                salon. Indulge in a wide range of luxurious services tailored to
+                make you feel beautiful and confident.
+              </p>
+            </div>
+            <div>
+              <a href="">View Services</a>
+              <a href="">Book Now</a>
+            </div>
+          </div>
+          <div className="galery">
+            <div className="head">
+              <img
+                src="../../public/img/beauty-salon-front-state.webp"
+                alt=""
+              />
+            </div>
+            <div className="footer">
+              <img src="../../public/img/beauty-salon-pink.webp" alt="" />
+              <img src="../../public/img/beauty-salon-black.webp" alt="" />
             </div>
           </div>
         </div>

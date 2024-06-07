@@ -23,8 +23,41 @@ h6 {
   flex: 1;
 }
 .md-section {
-  width: 100%;
+  display: grid;
   padding-top: 3rem; /* 48px */
   padding-bottom: 3rem; /* 48px */
   
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-width: 100%;
+}
+.galery{
+  display: grid;
+    grid-template-areas: 
+    "head head",
+    "footer"
+    ;
+   grid-template-rows: repeat(2,1fr);
+   grid-template-columns: repeat(2, 1fr);
+   gap: 6px;
+   justify-content: center;
+   align-items: center;
+
+}
+img{
+  width: 450px;
+  height: 450px;
+}
+.head{
+  grid-area: head;
+}
+.footer{
+  grid-area: footer;
+  position: relative;
+  top: 460px;
+  z-index: 1;
+  margin-right: 10px;
+  padding-right: 10px;
 }
